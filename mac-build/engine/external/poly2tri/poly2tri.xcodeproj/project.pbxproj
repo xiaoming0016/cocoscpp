@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5BB4F94348C943D9B4BE1196 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44ED36B251F645139A845C56 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				11FECB5BE9F49CA7AED43726 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				9BEFF0BAABAA40D997C2A611 /* PBXTargetDependency */,
+				E43CE1A477A446A18815535C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CFDAA35CB87F43A2BC3D02AB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE531CA2C7D94A84AA2ACEDA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FB7F23C9E89C862F9C9E40CA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C26AAABE10648B4A2E3C20D /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E82C8D2198EB45C180EE93B1 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		0D2191602AD4472595707F2D /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 8377F11D7F534C9686D003DD /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		44F1EB861BBF4D6C85820D9C /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 491BE68CDE4349C597EA2301 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/common/shapes.cc */; };
+		58D382E5BC1F4572B71A57FB /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = B5581DB341A24D2C966C8631 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		76014C82E10248F7BE53946D /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 3CCD2BCA4F3B4799B7B0DE87 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		A6E8F6655E7F408D851B5B80 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = DE75E2E0BB934AF686E6A140 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3ABA4154DFF94DFEB54D26F3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4C53137288CB49368D22491F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CAC8AC012B4C44498ECD6249 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F874CA7FECC84922B3595340 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		23BB3E9A78C444BFA55BB565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309DC00E6CD64A458BBDC419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEA03EE81F6490281B37237;
+			remoteInfo = ext_poly2tri;
+		};
+		571085A9CF1A43588DAB4C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309DC00E6CD64A458BBDC419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDAA35CB87F43A2BC3D02AB;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8798504416A4B05820A2710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309DC00E6CD64A458BBDC419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDAA35CB87F43A2BC3D02AB;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CCD2BCA4F3B4799B7B0DE87 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		491BE68CDE4349C597EA2301 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		8377F11D7F534C9686D003DD /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		A38887FE6193448E9DB495BA /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B5581DB341A24D2C966C8631 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		DE75E2E0BB934AF686E6A140 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		E82C8D2198EB45C180EE93B1 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EAB98A962A434F40ACA29F53 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CB60A84EB948A7B0CDEDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087B1C0F6FC741D986CEF62F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CD0EBA93AA7942DB9454126D /* ext_poly2tri */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		0F95FCFBFBDA4F43AFB0B56A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		13CD8ADD67CE4A599B804CAE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0F95FCFBFBDA4F43AFB0B56A /* CMake Rules */,
+				A38887FE6193448E9DB495BA /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		59E0A034A1EF4255A69D4422 = {
+			isa = PBXGroup;
+			children = (
+				087B1C0F6FC741D986CEF62F /* External */,
+				13CD8ADD67CE4A599B804CAE /* ALL_BUILD */,
+				D88D2B6698394788A3E2D482 /* Products */,
+				ABF1B739FB294F5FA27501FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6255FDBD82364DDFA12A3864 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				491BE68CDE4349C597EA2301 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/common/shapes.cc */,
+				3CCD2BCA4F3B4799B7B0DE87 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				B5581DB341A24D2C966C8631 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				8377F11D7F534C9686D003DD /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				DE75E2E0BB934AF686E6A140 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ABF1B739FB294F5FA27501FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0EBA93AA7942DB9454126D /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				6255FDBD82364DDFA12A3864 /* Source Files */,
+				E82C8D2198EB45C180EE93B1 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		D88D2B6698394788A3E2D482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB98A962A434F40ACA29F53 /* ext_poly2tri */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FEA03EE81F6490281B37237 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C229BF52F7CA4642818D6154 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				6D297A8202E34EA591B98D4F /* Sources */,
+				B7CB60A84EB948A7B0CDEDE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF3EED9565B46608BDE2CEB /* PBXTargetDependency */,
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = EAB98A962A434F40ACA29F53 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309DC00E6CD64A458BBDC419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1510;
+			};
+			buildConfigurationList = 27F4E292287C46579F72A2B6 /* Build configuration list for PBXProject "poly2tri" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CAC8AC012B4C44498ECD6249 /* Debug */,
+				3ABA4154DFF94DFEB54D26F3 /* Release */,
+				4C53137288CB49368D22491F /* MinSizeRel */,
+				F874CA7FECC84922B3595340 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 59E0A034A1EF4255A69D4422;
+			projectDirPath = ../../../../cocos2d/external/poly2tri;
+			projectRoot = "";
+			targets = (
+				5BB4F94348C943D9B4BE1196 /* ALL_BUILD */,
+				CFDAA35CB87F43A2BC3D02AB /* ZERO_CHECK */,
+				6FEA03EE81F6490281B37237 /* ext_poly2tri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FECB5BE9F49CA7AED43726 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FB7F23C9E89C862F9C9E40CA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  make -f /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  make -f /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  make -f /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri
+  make -f /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D297A8202E34EA591B98D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F1EB861BBF4D6C85820D9C /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/common/shapes.cc */,
+				76014C82E10248F7BE53946D /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				58D382E5BC1F4572B71A57FB /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				0D2191602AD4472595707F2D /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				A6E8F6655E7F408D851B5B80 /* /Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF3EED9565B46608BDE2CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDAA35CB87F43A2BC3D02AB /* ZERO_CHECK */;
+			targetProxy = 571085A9CF1A43588DAB4C81 /* PBXContainerItemProxy */;
+		};
+		9BEFF0BAABAA40D997C2A611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEA03EE81F6490281B37237 /* ext_poly2tri */;
+			targetProxy = 23BB3E9A78C444BFA55BB565 /* PBXContainerItemProxy */;
+		};
+		E43CE1A477A446A18815535C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDAA35CB87F43A2BC3D02AB /* ZERO_CHECK */;
+			targetProxy = B8798504416A4B05820A2710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F700EEBCF924EDFA03F8A22 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/cocos/editor-support",/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35F89D006A004B44A561E827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3C202FA455C44C8BB6CEC545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/cocos/editor-support",/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5098375FA12C440FAC81634C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/build";
+			};
+			name = MinSizeRel;
+		};
+		590831D33F2445BDB977E76E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6210F52094D44841BB450240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69A3AC518E5442D9BB1C7CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6E3A51D96D1D4715A36DA0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/build";
+			};
+			name = Debug;
+		};
+		71115183F8D94B1FB501EB57 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7D3E263ECB704E44AF173605 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AC7974169C5C4D6FB045C355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/cocos/editor-support",/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ACB0824146D84FA89F6CAAD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D3E3955236504DB497CAFD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri/build";
+			};
+			name = Release;
+		};
+		EA29C9B0CC4B46688BAE1A61 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EBAD03FEE7934F2CB9011E21 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/cocos/editor-support",/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F3AE23CD99134E429E3A1CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/elestorm/Desktop/lzy/lzycpp/lzycpp/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F4E292287C46579F72A2B6 /* Build configuration list for PBXProject "poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A51D96D1D4715A36DA0C6 /* Debug */,
+				D3E3955236504DB497CAFD2B /* Release */,
+				5098375FA12C440FAC81634C /* MinSizeRel */,
+				7D3E263ECB704E44AF173605 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44ED36B251F645139A845C56 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AE23CD99134E429E3A1CB7 /* Debug */,
+				6210F52094D44841BB450240 /* Release */,
+				71115183F8D94B1FB501EB57 /* MinSizeRel */,
+				EA29C9B0CC4B46688BAE1A61 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C229BF52F7CA4642818D6154 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C202FA455C44C8BB6CEC545 /* Debug */,
+				AC7974169C5C4D6FB045C355 /* Release */,
+				2F700EEBCF924EDFA03F8A22 /* MinSizeRel */,
+				EBAD03FEE7934F2CB9011E21 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE531CA2C7D94A84AA2ACEDA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F89D006A004B44A561E827 /* Debug */,
+				69A3AC518E5442D9BB1C7CF1 /* Release */,
+				590831D33F2445BDB977E76E /* MinSizeRel */,
+				ACB0824146D84FA89F6CAAD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309DC00E6CD64A458BBDC419 /* Project object */;
+}
