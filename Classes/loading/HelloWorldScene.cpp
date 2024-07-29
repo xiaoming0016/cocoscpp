@@ -23,6 +23,8 @@
  ****************************************************************************/
 
 #include "HelloWorldScene.h"
+#include "../mainScene/MainScene.h"
+
 
 USING_NS_CC;
 
@@ -78,6 +80,18 @@ bool HelloWorld::init()
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
+    
+    // Add a button to switch scene
+    auto switchItem = MenuItemImage::create(
+                                            "ui_button_blue_307.png",
+                                            "ui_button_blue_307.png",
+                                            CC_CALLBACK_1(HelloWorld::switchSceneCallback, this));
+    
+    switchItem->setPosition(Vec2(Director::getInstance()->getVisibleSize().width / 2, Director::getInstance()->getVisibleSize().height / 2));
+    
+    auto switchMenu = Menu::create(switchItem, NULL);
+    switchMenu->setPosition(Vec2::ZERO);
+    this->addChild(switchMenu, 1);
 
     /////////////////////////////
     // 3. add your codes below...
@@ -129,4 +143,11 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     //_eventDispatcher->dispatchEvent(&customEndEvent);
 
 
+}
+
+void HelloWorld::switchSceneCallback(Ref* pSender)
+{
+    // Create the new scene and replace the current scene with it
+    auto newScene = MainScene::createScene();
+    Director::getInstance()->replaceScene(newScene);
 }

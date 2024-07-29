@@ -37,6 +37,9 @@ public:
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
     
+    // a selector callback
+    void switchSceneCallback(cocos2d::Ref* pSender);
+    
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };

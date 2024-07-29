@@ -23,7 +23,7 @@
  ****************************************************************************/
 
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+#include "loading/HelloWorldScene.h"
 
 // #define USE_AUDIO_ENGINE 1
 
@@ -79,6 +79,16 @@ bool AppDelegate::applicationDidFinishLaunching() {
 #endif
         director->setOpenGLView(glview);
     }
+    
+    // // 添加资源搜索路径
+    // std::vector<std::string> searchPaths;
+    // searchPaths.push_back("Resources");
+    // FileUtils::getInstance()->setSearchPaths(searchPaths);
+    
+    // auto searchPaths1 = FileUtils::getInstance()->getSearchPaths();
+    // for (const auto& path : searchPaths1) {
+    //     CCLOG("Search path: %s", path.c_str());
+    // }
 
     // turn on display FPS
     director->setDisplayStats(true);
